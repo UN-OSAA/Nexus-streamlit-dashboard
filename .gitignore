@@ -1,0 +1,47 @@
+# --- Python virtual environments ---
+.venv/
+venv/
+nexusapp/
+nexusapp/lib/
+
+# --- Bytecode and compiled files ---
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# --- Jupyter/IPython cache ---
+.ipynb_checkpoints/
+
+# --- Streamlit generated files ---
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# --- VSCode settings and workspace files ---
+.vscode/
+*.code-workspace
+
+# --- macOS system files ---
+.DS_Store
+
+# --- OS / temp files ---
+*.log
+*.tmp
+*.swp
+*.bak
+
+# --- Env + dependency snapshots ---
+.env
+.env.*
+pip-log.txt
+poetry.lock
+poetry.toml
+Pipfile.lock
+
+# --- Git LFS hooks or partial clones ---
+.git/lfs/
+*.lfs
+
+# --- Dev container folder if not used ---
+.devcontainer/
